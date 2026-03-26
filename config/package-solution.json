@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "List Folder Organizer",
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Organize SharePoint list items into folder hierarchies"
+      },
+      "longDescription": {
+        "default": "An SPFx web part that helps organize SharePoint list items into folder structures based on date, alphabet, choice, and person grouping rules."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "List Folder Organizer Feature",
+        "description": "Deploys the List Folder Organizer web part",
+        "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-list-folder-organizer.sppkg"
+  }
+}

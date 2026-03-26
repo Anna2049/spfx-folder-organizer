@@ -1,0 +1,20 @@
+# Environment
+# .env
+
+# Dependencies
+node_modules/
+
+# Build output
+lib/
+dist/
+temp/
+release/
+sharepoint/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+Thumbs.db
+.DS_Store
