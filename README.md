@@ -83,6 +83,17 @@ spfx-list-folder-organizer/
    ```
    gulp serve
    ```
+   This starts a local dev server on `https://localhost:4321` and opens the SharePoint workbench in your browser.
+
+### Using the Workbench
+
+1. You must be **signed in** to your SharePoint Online tenant in the browser
+2. The browser will warn about the self-signed certificate on first run — accept it
+3. On the workbench page, click the **+** button to add a web part
+4. Find **"List Folder Organizer"** under the **Advanced** category
+5. Add it — you'll see the table of lists from that site with all the controls
+6. The workbench talks to **real SharePoint data** — lists, fields, and items are all live
+7. Keep `gulp serve` running — the workbench loads your code from `localhost`
 
 ## Build & Deploy
 
